@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url("track.jpg");
+    
+     background-size: cover;
+     background-size:850px;
+      
+    }
+    .a{
+        top: 600px;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        animation-timing-function: ease;
+    }
+    #a{
+        left: 820px;
+        height: 400px;
+        width: 550px;
+        top: 165px;
+        position: absolute;
+        animation-timing-function: ease;
+        animation:train 15s infinite;
+        
+    }
+    #b{  top: 399px;
+        right:5.1%;
+        animation: w1 15s infinite;
+    }
+    #c{  top: 399px;
+      right: 32.4%;
+        animation:w2 15s infinite ;
+    }
+    #d{  top: 399px;
+        right: 11.3%;
+        animation: w3 15s infinite;
+    }
+    #e{
+        top: 399px;
+      right: 25.4%;
+        animation: w4 15s infinite;
+    }
+    /* ḷast */
+    @keyframes w1{
+        0%{transform: rotate(360deg);}
+        100%{right:910px}
+
+
+    }
+    /* first */
+    @keyframes w2{
+        0%{transform: rotate(360deg);}
+        100%{right:1280px}
+
+    }
+    /* last first */
+    @keyframes w3{
+        0%{transform: rotate(360deg);}
+        100%{right:1000px}
+    }
+    /* first sceond */
+    @keyframes w4{
+        0%{transform: rotate(360deg);}
+        100%{right:1188px}
+    }
+    @keyframes train{
+        100%{transform: translate(-840px);}
+    }
+
+</style>
+<body>
+    <img id="a" src="train-removebg-preview(1).png" alt="">
+    <img id="b" class="a" src="train_we-removebg-preview.png" alt="">
+    <img id="c" class="a" src="train_we-removebg-preview.png" alt="">
+    <img id="d" class="a" src="train_we-removebg-preview.png" alt="">
+    <img id="e" class="a" src="train_we-removebg-preview.png" alt="">
+    
+
+  
+    <audio controls autoplay>
+        <source src="train-1-99265.ogg" type="audio/ogg">
+        <source src="train-1-99265.mp3" type="audio/mp3">
+     </audio>
+    
+</body>
+</html>

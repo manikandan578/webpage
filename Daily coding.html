@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style >
+    span{
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 1000;
+        position: relative;
+        color: rgb(250, 250, 250);
+        -webkit-text-stroke: 2px black;
+    
+    }
+    span::before{
+        position:absolute;
+        content: "Dailycoding";
+        color: rgb(245, 237, 9);
+        animation: filling 2s linear infinite;
+        border-right: 3px solid rgb(253, 5, 5);
+        overflow: hidden;
+    }
+    @keyframes filling{
+        0%{width: 0%;}
+        50%{width: 100%;}
+        100%{width: 0%;}
+    }
+</style>
+<body>
+    <span  id="text">Dailycoding</span>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  
+  
+    body{
+        background-image:url("png-clipart-road-asphalt-woodland-road-angle-text.png");
+        background-size: cover;
+
+    }
+    .b{
+        top: 320px;
+        height: 91px;
+        width: 90px;
+        position: absolute;
+        animation-timing-function: ease;
+    }
+    #a{
+        top: 165px;
+        position: absolute;
+        animation-timing-function: ease;
+        animation: car 5s infinite;
+    }
+    #d{
+        left:9%;
+        animation: w1 5s infinite;
+    }
+    #c{
+        left: 32.4%;
+        animation:w2 5s infinite ;
+    }
+    @keyframes w1 {
+        0%{transform: rotate(-360deg);}
+        100%{left:720px}
+        
+    }
+    @keyframes w2 {
+        0%{transform: rotate(-360deg);}
+        100%{left:76.2%;}
+        
+    }
+    @keyframes car{
+        100%{transform: translate(600px);}
+    }
+</style>
+<body>
+    <img  id="a" src="kisspng-car-mercedes-benz-luxury-vehicle-wheel-over-wheels-5ad9e9f1443125.1156234915242306412793-removebg-preview.png" alt="">
+    <img id="d" class="b" src="car-wheel-11530932253qi7fpgceej-removebg-preview.png" alt="">
+    <img id="c" class="b" src="car-wheel-11530932253qi7fpgceej-removebg-preview.png" alt="">
+
+</body>
+</html>

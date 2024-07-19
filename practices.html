@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function pal(){
+            // prompt("what are you")
+            // alert("how are you")
+            // confirm("what a look")
+
+            const s = document.getElementById("numb").value;
+        const a =document.getElementById('ans')
+            const len = s.length
+            a.innerHTML=" ";
+            // let i = 0;
+            // while (i <10){
+            //              a.innerHTML+=s +"<br>";
+            //                 i++
+            // }
+            for(let i =0; i <10; i++)
+        {
+            if(s=="")
+            break;
+            // a.innerHTML+= s +"br";
+        }
+        }
+
+    </script>
+    
+</body>
+<input type="text" id="numb">
+<button type="button" onclick="pal()"><b>Answer</b></button>
+<h1 id="ans">hi</h1>  <hr>
+</html>
